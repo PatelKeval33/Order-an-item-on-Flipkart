@@ -24,6 +24,7 @@ Login Fipkart
     Wait Until Element Is Visible    //*[@id="container"]/div/div[3]/div/div[1]/div[2]/div[1]/div/section[2]/div[4]/div[3]/select/option[1]    
     Click Element    //*[@id="container"]/div/div[3]/div/div[1]/div[2]/div[1]/div/section[2]/div[4]/div[3]/select/option[1]    
     Sleep    5s
+    
     @{parent_window}=   get window handles
     wait until element is visible    xpath://*[@id="container"]/div/div[3]/div/div[2]/div[3]/div/div/div/a/div[2]/div[1]/div[1]   25s
     run keyword and ignore error    click element    xpath://*[@id="container"]/div/div[3]/div/div[2]/div[3]/div/div/div/a/div[2]/div[1]/div[1]
