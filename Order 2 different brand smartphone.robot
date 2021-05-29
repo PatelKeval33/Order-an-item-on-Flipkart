@@ -47,16 +47,6 @@ Login Fipkart
     ${title}=   get title
     log to console    ${title}
     Sleep    5s
-        Wait Until Element Is Visible    //button[@class="_2KpZ6l _2U9uOA _3v1-ww"]    
-    Click Element    //button[@class="_2KpZ6l _2U9uOA _3v1-ww"]
-    Sleep    5s
-    Wait Until Element Is Visible    //div[normalize-space()="Remove"]    
-    Click Element    //div[normalize-space()="Remove"]
-    Wait Until Element Is Visible    //div[2][normalize-space()="Remove"]    
-    Click Element    //div[2][normalize-space()="Remove"]
-    Sleep    5s    
-    Wait Until Element Is Visible    //div[normalize-space()="Remove"]    
-    Click Element    //div[normalize-space()="Remove"]
-    Wait Until Element Is Visible    //div[2][normalize-space()="Remove"]    
-    Click Element    //div[2][normalize-space()="Remove"]        
+    Wait Until Element Is Visible    //button[@class="_2KpZ6l _2U9uOA _3v1-ww"]    
+    Click Element    //button[@class="_2KpZ6l _2U9uOA _3v1-ww"]     
     Close Browser
